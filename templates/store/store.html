@@ -1,5 +1,38 @@
-{% extends 'home.html' %}
+{% extends 'main.html' %}
 {% load static %}
 {% block content %}
-<h3>store</h3>
+<div class="row">
+    <div class="col-lg-4">
+        <img class="thumbnail" src="{% static 'images/placeholder.png' %}">
+        <div class="bow-element produt">
+         <h6><strong>product</strong></h6>
+            <hr>
+            <button class="btn btn-outline-secondary add-btn">Add to cart</button>
+        <a class="btn btn-outline-success" href="#">view</a>
+
+        </div>
+    </div>
+
+    <div class="col-lg-4">
+        <img class="thumbnail" src="{% static 'images/placeholder.png' %}">
+        <div class="bow-element produt">
+         <h6><strong>product</strong></h6>
+            <hr>
+            <button class="btn btn-outline-secondary add-btn">Add to cart</button>
+            <a class="btn btn-outline-success" href="#">view</a>
+
+        </div>
+    </div>
+
+    <div class="col-lg-4">
+        <img class="thumbnail" src="{% static 'images/placeholder.png' %}">
+        <div class="bow-element produt">
+         <h6><strong>product</strong></h6>
+            <hr>
+            <button class="btn btn-outline-secondary add-btn">Add to cart</button>
+        <a class="btn btn-outline-success" href="#">view</a>
+
+        </div>
+    </div>
+</div>
 {% endblock %}
